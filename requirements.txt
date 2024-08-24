@@ -1,0 +1,4 @@
+Python 3.7+
+PostgreSQL database
+Aiogram
+SQLAlchemy
