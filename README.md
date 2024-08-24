@@ -1,5 +1,3 @@
-Here's a `README.md` file template for your GitHub repository based on your project:
-
 ```markdown
 # Aiogram Email Bot
 
@@ -24,7 +22,7 @@ This project is a Telegram bot built using the `aiogram` framework. It allows us
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone git@github.com:Robben1972/mail.git
    cd repo-name
    ```
 
