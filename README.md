@@ -1,27 +1,26 @@
-```markdown
- Aiogram Email Bot
+# Aiogram Email Bot
 
 This project is a Telegram bot built using the `aiogram` framework. It allows users to start an interaction, enter their email, and send emails through the bot. The bot also supports a search feature to retrieve user information from a PostgreSQL database.
 
- Features
+# Features
 
 - User Registration: Users can register by providing their email and password.
 - Email Sending: Registered users can send emails to specific addresses directly from the bot.
 - User Search: The bot can list users stored in the database and send emails to selected users.
 - Form Handling: The bot uses `aiogram.fsm` to handle different stages of user interaction.
 
- Prerequisites
+# Prerequisites
 
 - Python 3.7+
 - PostgreSQL database
 - Aiogram
 - SQLAlchemy
 
- Installation
+# Installation
 
 1. Clone the repository:
 
-   bash
+   ```bash
    git clone git@github.com:Robben1972/mail.git
    cd repo-name
    ```
