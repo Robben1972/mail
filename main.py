@@ -23,16 +23,16 @@ msg = MIMEMultipart()
 
 def send(to, body):
     msg['Subject'] = 'Test'
-    msg['From'] = 'bozorovshahob27@gmail.com'
+    msg['From'] = '@gmail.com'
     msg['To'] = to
     msg.attach(MIMEText(body, 'html'))
     if to.endswith('gmail.com'):
         with SMTP_SSL('smtp.gmail.com', 465) as smtp:
-            smtp.login('bozorovshahob27@gmail.com', 'dapqtmlkkjfgljnb')
-            smtp.sendmail('bozorovshahob27@gmail.com', to, msg.as_string())
+            smtp.login('@gmail.com', 'code_for_auth_gmail')
+            smtp.sendmail('@gmail.com', to, msg.as_string())
 
 
-TOKEN = "6705025528:AAE8NsAZ2LpGB1piK7BZDx5Qbe0Lgl4IaiI"
+TOKEN = "BOT_TOKEN"
 
 dp = Dispatcher()
 
