@@ -21,7 +21,7 @@ This project is a Telegram bot built using the `aiogram` framework. It allows us
 
 1. Clone the repository:
 
-   ```bash
+   bash
    git clone git@github.com:Robben1972/mail.git
    cd repo-name
    ```
